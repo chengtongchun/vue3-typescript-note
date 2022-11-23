@@ -1,0 +1,19 @@
+vue3 typescript vant3
+1.建项目
+ d:盘上建个目录
+ 进入该目录
+  vue create blibli
+  选ts
+2.用vscode打开该目录下面blibli
+3.整理目录
+  在src下assets下面建三个目录
+     styles中放样式表 
+     建images放图片
+     建font下载iconfont图标
+  复制老师assets下的文件
+4.按需引入vant3
+   1.找vant3的官网http://vant3.uihtm.com/
+   2.找快速上手
+      npm i babel-plugin-import -D
+      babel.config.js 中添加配置
+      在main.js中引入组件
